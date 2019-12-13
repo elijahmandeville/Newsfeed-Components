@@ -44,7 +44,7 @@ menu.appendChild(createMenu(menuItems));
 function createMenu(arr) {
   const menu = document.createElement('div');
   const list = document.createElement('ul');
-  
+   
   //iterating over the array at the top of the page, creating a list item for each element in the array, adding the appropriate text to each item, and appending that list item to the ul I created above.
   arr.forEach((element) => {
     let listItem = document.createElement('li');
